@@ -1,5 +1,5 @@
 {
- "when": "2026-11-25T03:05:52.061Z",
+ "when": "2026-11-25T05:33:50.826Z",
  "results": [
   {
    "check": "home: no layout, contrast or size issues",
@@ -7,14 +7,29 @@
    "detail": ""
   },
   {
-   "check": "examples: no issues",
+   "check": "home flight: computer",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "home flight: small laptop",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "home flight: phone",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "home flight: small phone",
    "ok": true,
    "detail": ""
   },
   {
    "check": "example 0: flagged patient",
    "ok": true,
-   "detail": "More uneven than 99 of 100"
+   "detail": "More uneven than 99 of 100 people"
   },
   {
    "check": "result: no issues",
@@ -37,6 +52,11 @@
    "detail": ""
   },
   {
+   "check": "before you type: no issues",
+   "ok": true,
+   "detail": ""
+  },
+  {
    "check": "cannot finish early",
    "ok": true,
    "detail": ""
@@ -54,12 +74,12 @@
   {
    "check": "ordinary typing: scored and saved",
    "ok": true,
-   "detail": "percentile 20.6, spread 21.8 ms (typed with 22.0)"
+   "detail": "percentile 20.6, spread 21.7 ms (typed with 22.0)"
   },
   {
    "check": "saved session holds no keystrokes or text",
    "ok": true,
-   "detail": "{\"t\":1795575873103,\"age\":55,\"n\":305,\"pc\":20.6,\"f\":{\"n\":305,\"med\":0.11340000000596007,\"iqr\":0.029799999982119463,\"wsd\":0."
+   "detail": "{\"t\":1795584735649,\"age\":55,\"n\":305,\"pc\":20.6,\"f\":{\"n\":305,\"med\":0.11329999998212159,\"iqr\":0.029799999982117242,\"wsd\":0."
   },
   {
    "check": "very uneven typing: flagged",
@@ -68,6 +88,11 @@
   },
   {
    "check": "sessions kept after reload",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "sessions page: no issues",
    "ok": true,
    "detail": ""
   },
@@ -118,6 +143,16 @@
   },
   {
    "check": "phone layout: no issues",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "printout hides the scene and buttons",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "works without 3D graphics",
    "ok": true,
    "detail": ""
   },

@@ -8,6 +8,12 @@ Live: **https://dwell-typing.vercel.app** (any computer with a keyboard, no acco
 
 Dwell is a screening aid for adults. **It is not a diagnosis.** It misses many people with Parkinson's, and most people it flags do not have it. The numbers are below.
 
+![Home](docs/home.png)
+
+![A real recording replaying](docs/replay.png)
+
+The picture is a real neuron. Its branches come from a dopamine cell in the substantia nigra of a mouse, traced under a microscope. Each key you press sends a pulse down them; holds far from your own middle leave late and turn coral. It is a picture of your typing, not a recording of a brain, and it has no part in the score.
+
 ## How it works
 1. **Record.** You copy a short passage. Dwell records when each character key goes down and up. The character itself is never stored (`src/core/capture.ts`).
 2. **Refuse what cannot be judged:** touch keyboards, too few keys, mashing, scripts, timers that are too coarse, lost key releases, speeds outside the reference.
@@ -101,6 +107,7 @@ Research (Python 3.11+, numpy, pandas, scikit-learn). Put the data in `../dwell-
 - **Tappy Keystroke Data**: Adams W. R. PLoS ONE 12(11) (2017). PhysioNet, open access.
 - **136M Keystrokes**: Dhakal V., Feit A. M., Kristensson P. O., Oulasvirta A. *Observations on Typing from 136 Million Keystrokes.* CHI 2018. Free for non-commercial use with attribution. Only smoothed percentile tables computed from it are included, so `model.json` is for **non-commercial** use.
 - Passages: openings of *The Wonderful Wizard of Oz*, *The Wind in the Willows* and *Alice's Adventures in Wonderland*, all public domain.
-- Fonts: Gochi Hand, Patrick Hand, Pangolin (SIL OFL 1.1). Built with Vite, TypeScript, scikit-learn and Playwright, with AI coding assistance (Claude Code).
+- **Neuron shape**: cell MYUX58R (and MYUX100, blurred behind it), Henny archive, [NeuroMorpho.Org](https://neuromorpho.org). Meza R. C., López-Jury L., Canavier C. C., Henny P. *Role of the Axon Initial Segment in the Control of Spontaneous Frequency of Nigral Dopaminergic Neurons In Vivo.* J. Neurosci. 38, 733 (2018). Branch paths and relative thickness are real; thickness is exaggerated and small bumps are added (`research/neuron_shape.py`).
+- Font: Bricolage Grotesque (SIL OFL 1.1). Built with Vite, TypeScript, three.js, scikit-learn and Playwright, with AI coding assistance (Claude Code).
 
 Code: MIT. Not a medical device.

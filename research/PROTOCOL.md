@@ -38,4 +38,8 @@ From a few minutes of typing on an ordinary keyboard, using timing only, how wel
 Diagnosis. Detection years before diagnosis (these data are cross-sectional). Anything for children, touch screens, or people with another hand or nerve condition.
 
 ## Deviations
-None yet.
+1. **Threshold.** The clinic threshold flagged 21 % of Aalto check-half adults aged 40 and over, which broke the 15 % stop rule. Replaced by the 95th percentile of the reference half. The planned clinic-threshold results are kept in `results/clinic.json`.
+2. **Speed matching added.** Age-only matching flagged slow typists more often. Looked at after seeing those rates; the check half was therefore seen twice (`fairness.py`, `final.py`).
+3. **One fixed recipe.** The protocol selected features and model separately in each study (CS1: `spread5`, logistic C = 1; CS2: `spread3`, logistic C = 0.03). The app uses `spread3`, logistic C = 0.03 for both, because C = 1 on pooled data gave one feature a negative weight, which cannot be explained. Cross-study AUC: 0.81 / 0.79 as planned, 0.80 / 0.79 as shipped.
+4. **Final recipe seen on clinic data.** Because of 3, the shipped recipe is not blind to either clinic study, though no person is ever scored by a model trained on them.
+5. **Clinic ages.** The files have none; age 60 is used. Checked at 50 and 70.

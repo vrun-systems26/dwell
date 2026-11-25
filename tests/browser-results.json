@@ -1,0 +1,138 @@
+{
+ "when": "2026-11-25T03:05:52.061Z",
+ "results": [
+  {
+   "check": "home: no layout, contrast or size issues",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "examples: no issues",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "example 0: flagged patient",
+   "ok": true,
+   "detail": "More uneven than 99 of 100"
+  },
+  {
+   "check": "result: no issues",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "example 1: missed patient",
+   "ok": true,
+   "detail": "Within the usual range"
+  },
+  {
+   "check": "example 2: person without",
+   "ok": true,
+   "detail": "Within the usual range"
+  },
+  {
+   "check": "how it works: no issues",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "cannot finish early",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "typing: no issues",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "paste refused with a message",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "ordinary typing: scored and saved",
+   "ok": true,
+   "detail": "percentile 20.6, spread 21.8 ms (typed with 22.0)"
+  },
+  {
+   "check": "saved session holds no keystrokes or text",
+   "ok": true,
+   "detail": "{\"t\":1795575873103,\"age\":55,\"n\":305,\"pc\":20.6,\"f\":{\"n\":305,\"med\":0.11340000000596007,\"iqr\":0.029799999982119463,\"wsd\":0."
+  },
+  {
+   "check": "very uneven typing: flagged",
+   "ok": true,
+   "detail": "percentile 99.5"
+  },
+  {
+   "check": "sessions kept after reload",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "under 40: demonstration only, not saved",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "other hand condition: warned, not saved",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "refused: identical holds",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "refused: mashing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "refused: too slow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "refused: coarse timer",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "refused: on-screen keyboard",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "damaged saved data does not crash",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "delete my sessions",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "phone layout: no issues",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "network: only its own files, nothing sent",
+   "ok": true,
+   "detail": "localhost:5190"
+  },
+  {
+   "check": "no page errors",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "hosts": [
+  "localhost:5190"
+ ]
+}

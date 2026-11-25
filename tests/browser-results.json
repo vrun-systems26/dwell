@@ -1,5 +1,5 @@
 {
- "when": "2026-11-25T05:33:50.826Z",
+ "when": "2026-11-25T05:38:48.636Z",
  "results": [
   {
    "check": "home: no layout, contrast or size issues",
@@ -74,12 +74,12 @@
   {
    "check": "ordinary typing: scored and saved",
    "ok": true,
-   "detail": "percentile 20.6, spread 21.7 ms (typed with 22.0)"
+   "detail": "percentile 21.2, spread 21.7 ms (typed with 22.0)"
   },
   {
    "check": "saved session holds no keystrokes or text",
    "ok": true,
-   "detail": "{\"t\":1795584735649,\"age\":55,\"n\":305,\"pc\":20.6,\"f\":{\"n\":305,\"med\":0.11329999998212159,\"iqr\":0.029799999982117242,\"wsd\":0."
+   "detail": "{\"t\":1795585029475,\"age\":55,\"n\":305,\"pc\":21.2,\"f\":{\"n\":305,\"med\":0.1135999999940438,\"iqr\":0.030199999988081316,\"wsd\":0.0"
   },
   {
    "check": "very uneven typing: flagged",
@@ -159,7 +159,7 @@
   {
    "check": "network: only its own files, nothing sent",
    "ok": true,
-   "detail": "localhost:5190"
+   "detail": "dwell-typing.vercel.app"
   },
   {
    "check": "no page errors",
@@ -168,6 +168,6 @@
   }
  ],
  "hosts": [
-  "localhost:5190"
+  "dwell-typing.vercel.app"
  ]
 }
